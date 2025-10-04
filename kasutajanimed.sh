@@ -10,8 +10,8 @@ asenda_tahed(){
 #Loeme faili rida realt
 while read enimi pnimi sugu; do
 	#Töötleme ees- ja perenimed ära
-	eesnimi=$(asenda_tahed("$enimi")
-	perenimi=$(asenda_tahed("$pnimi")
+	eesnimi=$(asenda_tahed "$enimi")
+	perenimi=$(asenda_tahed "$pnimi")
 
 	#Loome kasutajanime ees- ja perekonnanimest
 	kasutajanimi="${eesnimi}.${perenimi}"
