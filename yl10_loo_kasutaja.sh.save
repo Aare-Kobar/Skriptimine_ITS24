@@ -1,7 +1,0 @@
-#!/bin/bash
-
-kasutajanimi=read -p "Kasutaja: " user
-parool=read -sp "Parool: " password
-echo "Kasutaja on $user ja parool on $password"
-
-sudo useradd $kasutajanimi
